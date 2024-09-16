@@ -1,0 +1,12 @@
+import numpy as np
+
+N = 10
+vector1 = np.random.randn(N)
+vector2 = np.random.randn(N)
+
+correlation_matrix = np.corrcoef(vector1, vector2)
+correlation = correlation_matrix[0, 1]
+
+print(f"Vector 1: {vector1}")
+print(f"Vector 2: {vector2}")
+print(f"Correlation: {correlation}")
