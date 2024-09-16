@@ -1,0 +1,9 @@
+import numpy as np
+N = 10  
+vector = np.random.randn(N)
+mean = np.mean(vector)
+variance = np.var(vector)
+print(f"Vector: {vector}")
+print(f"Mean: {mean}")
+print(f"Variance: {variance}")
+
