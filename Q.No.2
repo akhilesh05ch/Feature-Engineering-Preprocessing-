@@ -1,0 +1,12 @@
+import numpy as np
+
+M = 10  
+vector1 = np.random.randn(M)
+vector2 = np.random.randn(M)
+
+cov_matrix = np.cov(vector1, vector2)
+covariance = cov_matrix[0, 1]
+
+print(f"Vector 1: {vector1}")
+print(f"Vector 2: {vector2}")
+print(f"Covariance: {covariance}")
